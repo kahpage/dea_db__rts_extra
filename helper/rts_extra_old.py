@@ -417,7 +417,7 @@ if __name__ == '__main__':
                 Source(f"Participating circles (2): {thwikicc_local} (well sourced)", (ReliabilityTypes.Reliable, OriginTypes.External)),
             ],
             locations=locations,
-            comments="Note: '第一回博麗神社例大祭in静岡' actually is RTS 18."
+            # comments="Note: '第一回博麗神社例大祭in静岡' actually is RTS 18."  # -> wrong, but was shizuoka 1 an event near RTS17 (which was cancelled)
         )
         event_raw = event.get_json()
         with (Path(__file__).parent / "web" / f"{name}" / "all_circles_export.json").open("r", encoding='utf-8') as f:
