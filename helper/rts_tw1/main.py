@@ -255,7 +255,7 @@ def main():
     # Official source
     circles_info = []
     official_pages = [
-        "https://web.archive.org/web/20150526041319/http://reitaisai.com/rtstw/circle-list",
+        "https://web.archive.org/web/20260512005310/https://reitaisai.com/tw4/acceptance_circle/",
     ]
     for page_index, page_url in enumerate(official_pages):
         official_soup = retrieve_soup_fetch_if_needed(
@@ -336,7 +336,7 @@ def main():
             official_name_index.setdefault(key, []).append(index)
 
     secondary_links = [
-        "https://thwiki.cc/%E5%8D%9A%E4%B8%BD%E7%A5%9E%E7%A4%BE%E4%BE%8B%E5%A4%A7%E7%A5%AD_in_%E5%8F%B0%E6%B9%BE/%E7%AC%AC1%E5%B1%8A%E6%91%8A%E4%BD%8D"
+        "https://thwiki.cc/%E5%8D%9A%E4%B8%BD%E7%A5%9E%E7%A4%BE%E4%BE%8B%E5%A4%A7%E7%A5%AD_in_%E5%8F%B0%E6%B9%BE/%E7%AC%AC4%E5%B1%8A%E6%91%8A%E4%BD%8D"
     ]
     secondary_match_count = 0
     for secondary_index, secondary_url in enumerate(secondary_links):
